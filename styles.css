@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.display{
+    height: 8em; 
+}
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    gap: 4em;
+}
+.calcContainer{
+    height: 30em;
+    width: 18em;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 40px 1px black;
+    border: 1px solid orange;
+}
+.btnDiv{
+    display: grid;
+    grid-template-columns: .8fr .9fr .9fr .9fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: .55em;
+    width: 95%;
+    margin: 0 auto;
+}
+.Display{
+    color: white;
+    overflow: hidden;
+    text-align: right;
+    padding-top: .8em;
+    padding-right: .32em;
+    font-size: 4em;
+    font-weight: 200;
+    font-family: "Roboto", serif;
+}
+.btns{
+    padding: .45em .7em;
+    border-radius: 200px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+img{
+    height: 1.4em;
+    padding-top: .2em;
+}
+.clearBtn{
+   font-size: 1.39em;
+}
+.zeroBtn{
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.gray{
+    background-color: rgb(175, 174, 174);
+    transition: .2s ease-in;
+}
+.gray:active{
+    background-color: rgb(224, 224, 224);
+}
+.orange{
+    background-color: orange;
+    color: white;
+    transition: .2s ease-in;
+}
+.orange:active{
+    background-color: rgb(255, 193, 79);
+}
+.black{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    transition: .2s ease-in;
+}
+.black:active{
+    background-color: rgb(88, 88, 88);
+}
+
+
+
+
+.toggleBtn{
+    font-size: 1em;
+    padding: .8em .8em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 1px rgb(41, 41, 41);
+}
+.toggleChange{
+    background-color: black;
+}
+.toggleBtnChange{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0px 2px 20px 5px rgb(109, 109, 109);
+}
+.toggleCalcBackgroundChange{
+    background-color: aliceblue;
+    border: 2px solid orange;
+    box-shadow: 0px 2px 30px 5px rgb(102, 102, 102);
+
+}
+.toggleDisplayChange{
+    color: black;
+}
